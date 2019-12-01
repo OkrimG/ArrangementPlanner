@@ -10,7 +10,8 @@ public class Location implements Serializable {
 	private int nextnr = 1;
 	private int arrangement = 0;
 	
-	    
+	public Location(){}    
+	
 	    public Location (String n, String t, int as, boolean nr, String img) {
 	        name = n;
 	        type = t;

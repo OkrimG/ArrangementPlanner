@@ -41,7 +41,7 @@ public class Arrangementregister implements Serializable
                 for ( Arrangement a : reg) {
                 	message += a.toString(false);
                 	message += locationreg.findArrangement(a.getArrnr());
-                	message += contactreg.searchArrangement(a.getArrnr());
+                	message += contactreg.findArrangement(a.getArrnr());
                 }
         } list.setText(message);      
     }

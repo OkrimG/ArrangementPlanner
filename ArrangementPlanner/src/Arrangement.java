@@ -84,11 +84,11 @@ public class Arrangement implements Serializable {
     }
     
     public int getTicket() {
-        return tp;
+        return ticketnr;
     }
     
-    public void setBnr( int tp ) {
-        this.tp = tp;
+    public void setTicketnr( int ticketnr ) {
+        this.ticketnr = ticketnr;
     }
 //---------------------------------------------------------    
     public String toString(boolean value) {
